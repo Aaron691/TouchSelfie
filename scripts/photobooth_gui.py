@@ -19,7 +19,7 @@ from constants import *
 
 ## This is a simple GUI, so we allow the root singleton to do the legwork
 root = Tk()
-root.attributes("-fullscreen",True)
+## root.attributes("-fullscreen",True)
 
 def screenshot(*args):
     import screenshot
